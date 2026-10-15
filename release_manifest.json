@@ -4,8 +4,8 @@
   "runtime": "ncfm-win-x64-py314-r1",
   "package_name": "NightCrowsFarmManager-client-v1.1.33.zip",
   "package_url": "https://github.com/edwpon0904/nightcrows-farm-manager-updates/releases/download/v1.1.33/NightCrowsFarmManager-client-v1.1.33.zip",
-  "sha256": "6EFBE4C92BC4F426E7DE70F2E345827FED189C6929FA1CD1A691BB955EB4538B",
-  "size": 172245009,
+  "sha256": "6917099297F68515DCB3B977F6C615A480CAAE1AEA48160F6D49766550A3F778",
+  "size": 172204380,
   "release_notes": {
     "1.1.31": [
       "Thêm lối vào BF5 đã replay/xác minh gồm 3 điểm click và đưa BF5 vào nhóm Battlefront.",
@@ -117,7 +117,7 @@
     "1.1.33": [
       "Đổi nguồn cập nhật sang repository public riêng để client không cần đăng nhập GitHub.",
       "Giữ khả năng xóa điểm farm phát hành cục bộ bằng tombstone; không để điểm đã xóa tự xuất hiện lại.",
-      "Gói full tiếp tục mang snapshot data, route BF5 và manifest danh sách data cần xóa."
+      "Gói full chỉ chứa thư viện phát hành, không chứa farm_config, profile cá nhân, route cá nhân, backup hoặc license."
     ]
   },
   "patches": [
