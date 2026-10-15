@@ -4,8 +4,8 @@
   "runtime": "ncfm-win-x64-py314-r1",
   "package_name": "NightCrowsFarmManager-client-v1.1.33.zip",
   "package_url": "https://github.com/edwpon0904/nightcrows-farm-manager-updates/releases/download/v1.1.33/NightCrowsFarmManager-client-v1.1.33.zip",
-  "sha256": "6917099297F68515DCB3B977F6C615A480CAAE1AEA48160F6D49766550A3F778",
-  "size": 172204380,
+  "sha256": "0B74CFFD38DD1A7AEE13783456C22816829C2A934A4C40470DF18802C1BD732B",
+  "size": 172203431,
   "release_notes": {
     "1.1.31": [
       "Thêm lối vào BF5 đã replay/xác minh gồm 3 điểm click và đưa BF5 vào nhóm Battlefront.",
