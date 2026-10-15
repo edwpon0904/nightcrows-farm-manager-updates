@@ -1,0 +1,445 @@
+{
+  "version": "1.1.33",
+  "latest_version": "1.1.33",
+  "runtime": "ncfm-win-x64-py314-r1",
+  "package_name": "NightCrowsFarmManager-client-v1.1.33.zip",
+  "package_url": "https://github.com/edwpon0904/nightcrows-farm-manager-updates/releases/download/v1.1.33/NightCrowsFarmManager-client-v1.1.33.zip",
+  "sha256": "6EFBE4C92BC4F426E7DE70F2E345827FED189C6929FA1CD1A691BB955EB4538B",
+  "size": 172245009,
+  "release_notes": {
+    "1.1.31": [
+      "Thêm lối vào BF5 đã replay/xác minh gồm 3 điểm click và đưa BF5 vào nhóm Battlefront.",
+      "Xóa hoàn toàn nhóm map R cùng các lựa chọn R1-R7 khỏi ứng dụng.",
+      "Tự làm sạch lựa chọn R cũ trong Dashboard/Lịch farm nhưng không xóa dữ liệu cá nhân của user.",
+      "Giữ nguyên điểm farm, đường farm, lối vào map và toàn bộ thư mục data cá nhân."
+    ],
+    "1.1.30": [
+      "Sửa Cleric đọc nhầm HP F2/F4 khi bỏ chọn một F-key; lựa chọn hồi máu không còn làm lệch vùng quét trên màn hình.",
+      "Tự nhận diện layout party đủ 4 người hoặc co giữa còn 2–3 người trước khi đo HP.",
+      "Thành viên không hiện trả --; layout không chắc chắn sẽ không đoán F-key và không gửi phím hồi máu.",
+      "Giữ nguyên map, điểm farm, đường farm, lối vào map và toàn bộ dữ liệu cá nhân của user."
+    ],
+    "1.1.29": [
+      "Bổ sung phục hồi menu NPC sau TP: nếu OCR trượt, tool chỉ bấm kính lúp lần hai sau khi xác nhận minimap thật hai frame liên tiếp.",
+      "Chặn nhánh hai-click ngoài làng: minimap đã hiện sẵn ở map farm không thể cấp quyền bấm kính lúp lần hai.",
+      "Khóa hồi quy cả chuỗi TP, dọn popup, miss menu, minimap và nhận lại menu NPC trước khi tiếp tục workflow.",
+      "Giữ nguyên map, điểm farm, đường farm, lối vào map và toàn bộ dữ liệu cá nhân của user."
+    ],
+    "1.1.28": [
+      "Gộp nhánh khẩn cấp Cleric vào chính các phím hồi máu và thêm chu kỳ hồi khẩn cấp nhanh hơn.",
+      "Chia phần Buff thành Buff 1 và Buff 2, mỗi Buff có phím, chu kỳ và chế độ tuần tự độc lập.",
+      "Giữ tương thích cấu hình cũ: Buff cũ trở thành Buff 1; Buff 2 mặc định tắt và không tự gửi phím.",
+      "Giữ nguyên map, điểm farm, đường farm, lối vào map và toàn bộ dữ liệu cá nhân của user."
+    ],
+    "1.1.27": [
+      "Phân biệt menu NPC làng với minimap ở cùng trạng thái kính lúp, ổn định trên nhiều mức sáng.",
+      "Khi đổi ca đang Standby, nhấn Esc và xác nhận overlay đã mất trước khi TP.",
+      "Báo lỗi chụp đúng tab đang dùng, nén ảnh an toàn và gửi ổn định qua Apps Script.",
+      "Giữ nguyên map, điểm farm, đường farm, lối vào map và toàn bộ dữ liệu cá nhân của user."
+    ],
+    "1.1.26": [
+      "Sửa nhận diện màn hình chết bị lớp DirectX che khỏi PrintWindow; vẫn yêu cầu đúng caption và hai frame mới liên tiếp.",
+      "Sửa EXP Loss 1/5 đã chọn nhưng không bấm Free EXP Restore; Gear giữ nguyên.",
+      "Chặn click đường farm ED90 trước khi loading, bảng Dungeon và Healer ổn định hoàn tất.",
+      "Chạy ca đầu ngay đồng bộ trạng thái PLAY sau khi workflow thực sự khởi động.",
+      "Giữ nguyên map, điểm farm, đường farm, lối vào map và toàn bộ dữ liệu cá nhân của user."
+    ],
+    "1.1.25": [
+      "Sửa Chạy ca đầu ngay khi tool vừa mở và Dashboard chưa tích Dùng; vẫn giữ kiểm tra cửa sổ game an toàn.",
+      "Sửa thông báo kết thúc chung ghi đè lỗi Lịch farm thật.",
+      "Nhận diện an toàn cả Platform of Reflection và Platform of Silence khi icon Healer ED90 bị che một phần.",
+      "Giữ nguyên map, điểm farm, đường farm, lối vào map và toàn bộ dữ liệu cá nhân của user."
+    ],
+    "1.1.24": [
+      "Tách giờ bắt đầu Lịch farm thành Giờ và Phút theo định dạng 24 giờ; dữ liệu lịch cũ vẫn tương thích.",
+      "Sửa Chạy ca đầu ngay bị bỏ qua khi lịch tự động đang chờ giờ và ngăn tạo workflow trùng khi ca đang farm.",
+      "Tối ưu xử lý logo giúp thời gian mở tool giảm khoảng 20–28%.",
+      "Giữ nguyên map, điểm farm, đường farm, lối vào map và toàn bộ dữ liệu cá nhân của user."
+    ],
+    "1.1.23": [
+      "Sửa Lịch farm không chạy lại sau Dừng/Tạm dừng và ca nối tiếp để trống giờ; Chạy ca đầu ngay hoạt động đúng.",
+      "Rút gọn báo cáo lỗi quá lớn theo nhiều tầng nhưng vẫn giữ tóm tắt, mã lỗi, ghi chú và tối đa hai ảnh game.",
+      "Giữ nguyên map, điểm farm, đường farm, lối vào map và toàn bộ dữ liệu cá nhân của user."
+    ],
+    "1.1.22": [
+      "Thêm tab Cleric riêng và nút bật/tắt dưới Trạng thái hệ thống; Cleric có thể chạy độc lập khi workflow chưa PLAY.",
+      "TP, Pause, Stop, death hoặc đóng tool sẽ tắt Cleric và chỉ người dùng mới có thể bật lại.",
+      "Tối ưu dashboard cố định 850x840, bố trí Donate phía trên Bản quyền và hiển thị QR Momo/Wemix gọn gàng.",
+      "Sửa Lịch farm không chạy lại sau Dừng/Tạm dừng và ca nối tiếp để trống giờ; Chạy ca đầu ngay hoạt động đúng.",
+      "Rút gọn báo cáo lỗi quá lớn theo nhiều tầng nhưng vẫn giữ tóm tắt, mã lỗi, ghi chú và tối đa hai ảnh game.",
+      "Giữ nguyên map, điểm farm, đường farm, lối vào map và toàn bộ dữ liệu cá nhân của user."
+    ],
+    "1.1.21": [
+      "Thêm giao diện Tiếng Việt / English và lưu lựa chọn ngôn ngữ cho lần mở sau.",
+      "Rút gọn Standard Layout còn F8 Pause/F9 Resume, thêm Wemix wallet và sửa hiển thị license English.",
+      "Giữ nguyên map, điểm farm, đường farm, lối vào map và toàn bộ dữ liệu cá nhân của user."
+    ],
+    "1.1.20": [
+      "Thêm lối vào BF4 đã replay và xác minh, gồm 3 điểm click.",
+      "Thêm điểm farm phát hành BF4 114-1, gồm 5 thao tác và 23,58 giây chờ cuối.",
+      "Giữ nguyên 32 điểm farm, 3 lối vào map cũ và toàn bộ dữ liệu cá nhân của user."
+    ],
+    "1.1.19": [
+      "Sửa nhận diện panel ED90 thật khi nút Enter đã mờ; đóng panel rồi mới tiếp tục xác nhận icon Healer và tới điểm farm.",
+      "Thu gọn vùng OCR nút Enter, dùng chế độ đọc chữ nhỏ và cần hai frame âm liên tiếp trước khi kết luận panel không tồn tại.",
+      "Giữ nguyên map, điểm farm, đường farm, lối vào map và toàn bộ dữ liệu cá nhân của user."
+    ],
+    "1.1.18": [
+      "Ưu tiên phát hiện chết và TP khẩn cấp trước popup vật phẩm; chỉ dọn popup sau khi menu NPC làng được xác nhận.",
+      "Sửa màn hình ED90 còn mở khi nút Enter đã mờ; đóng an toàn rồi tiếp tục xác nhận chuyển map và tới điểm farm.",
+      "Cập nhật bộ map/điểm farm của chủ dự án: 5 điểm được cập nhật, 6 điểm mới, tổng 32 điểm phát hành.",
+      "Báo cáo lỗi workflow có thể kèm ảnh riêng của hai tab game; giữ nguyên data, license, điểm và route cá nhân."
+    ],
+    "1.1.17": [
+      "Đổi điểm farm khi cùng điểm có 3 lần chết được xác nhận hoặc 10 lần TP khẩn cấp do PK.",
+      "TP khẩn cấp được ưu tiên trước; chỉ dọn popup đồ sau khi đã xác nhận về làng.",
+      "Reset bộ đếm sau 1 giờ; toàn bộ điểm trong cùng nhóm thất bại sẽ thử thêm 3 vòng rồi chuyển Scheduler.",
+      "Giữ nguyên map, điểm farm, đường đi, lối vào map và dữ liệu cá nhân."
+    ],
+    "1.1.16": [
+      "Đóng gói lại hotfix popup TP/menu NPC đã kiểm tra ở bản 1.1.15.",
+      "Tăng phiên bản để client 1.1.15 cũ nhận được popup cập nhật.",
+      "Giữ nguyên map, điểm farm, đường đi, lối vào map và dữ liệu cá nhân."
+    ],
+    "1.1.15": [
+      "Sửa lệch thời gian giữ phím khi phát lại đường farm.",
+      "Tách watchdog nhận diện chết khỏi luồng replay để không làm sai số click.",
+      "Tối ưu OCR menu làng bằng cache frame và polling thích ứng cho máy yếu.",
+      "Thêm hộp cập nhật hiển thị phiên bản hiện tại, phiên bản mới và thay đổi chính.",
+      "Giữ nguyên map, điểm farm, đường đi và lối vào map; patch không ghi đè data cá nhân."
+    ],
+    "1.1.32": [
+      "Cho phép xóa điểm farm phát hành khỏi máy này bằng tombstone cá nhân; dữ liệu phát hành gốc không bị sửa.",
+      "Chuyển bộ kiểm tra cập nhật ứng dụng và map/config sang GitHub.",
+      "Gói full phát hành kèm snapshot data và danh sách data cần xóa; updater có rollback khi thay data.",
+      "Giữ nguyên thay đổi sửa hàng đợi một tab và lối vào BF5 đã xác minh."
+    ],
+    "1.1.33": [
+      "Đổi nguồn cập nhật sang repository public riêng để client không cần đăng nhập GitHub.",
+      "Giữ khả năng xóa điểm farm phát hành cục bộ bằng tombstone; không để điểm đã xóa tự xuất hiện lại.",
+      "Gói full tiếp tục mang snapshot data, route BF5 và manifest danh sách data cần xóa."
+    ]
+  },
+  "patches": [
+    {
+      "from_version": "1.1.6",
+      "to_version": "1.1.7",
+      "from_runtime": "ncfm-win-x64-py314-r1",
+      "to_runtime": "ncfm-win-x64-py314-r1",
+      "package_name": "NightCrowsFarmManager-patch-v1.1.6-to-v1.1.7.zip",
+      "package_url": "https://drive.usercontent.google.com/download?id=1sWfzLN7uHD90__fKGAWsPbVU5uOf9mOy&export=download&confirm=t",
+      "sha256": "6E2AA4FBACD3D20E7397E93FA909AA486845948719465AAEC0A75F5033715543",
+      "size": 6304298
+    },
+    {
+      "from_version": "1.1.7",
+      "to_version": "1.1.8",
+      "from_runtime": "ncfm-win-x64-py314-r1",
+      "to_runtime": "ncfm-win-x64-py314-r1",
+      "package_name": "NightCrowsFarmManager-patch-v1.1.7-to-v1.1.8.zip",
+      "package_url": "https://drive.usercontent.google.com/download?id=1oZXEMQxkBg7U-yBNTOyX79KAYlkiKunp&export=download&confirm=t",
+      "sha256": "0F89BF98B3D7DC29668A16A348598901C9B352E10332B26C4CB919188B64E89B",
+      "size": 6317937
+    },
+    {
+      "from_version": "1.1.8",
+      "to_version": "1.1.9",
+      "from_runtime": "ncfm-win-x64-py314-r1",
+      "to_runtime": "ncfm-win-x64-py314-r1",
+      "package_name": "NightCrowsFarmManager-patch-v1.1.8-to-v1.1.9.zip",
+      "package_url": "https://drive.usercontent.google.com/download?id=1XQ4rdkh_xx8SbD2oikiMrsJd11FwNBUS&export=download&confirm=t",
+      "sha256": "CE0A5C04473816324A73AD0F83E547CA47BC37B4C541797C194AA01538BF2DF6",
+      "size": 6336803
+    },
+    {
+      "from_version": "1.1.9",
+      "to_version": "1.1.10",
+      "from_runtime": "ncfm-win-x64-py314-r1",
+      "to_runtime": "ncfm-win-x64-py314-r1",
+      "package_name": "NightCrowsFarmManager-patch-v1.1.9-to-v1.1.10.zip",
+      "package_url": "https://drive.usercontent.google.com/download?id=1p6Yk-hk7eHACxctdNKPmA-qV90TGBxxB&export=download&confirm=t",
+      "sha256": "32615D60833EEC4FCA6DA6ECE429E44E0EF4B66BD2EA0CCD682671DEAF2857A9",
+      "size": 6359281
+    },
+    {
+      "from_version": "1.1.10",
+      "to_version": "1.1.11",
+      "from_runtime": "ncfm-win-x64-py314-r1",
+      "to_runtime": "ncfm-win-x64-py314-r1",
+      "package_name": "NightCrowsFarmManager-patch-v1.1.10-to-v1.1.11.zip",
+      "package_url": "https://drive.usercontent.google.com/download?id=1jLEJYVtH8wBW8FHeq_oe4-M3XrP0PMZ2&export=download&confirm=t",
+      "sha256": "C793C3573B29EACAD81F01F90AC7562716650C1D5259936C2E15EE4F0843DE4C",
+      "size": 6389119
+    },
+    {
+      "from_version": "1.1.11",
+      "to_version": "1.1.12",
+      "from_runtime": "ncfm-win-x64-py314-r1",
+      "to_runtime": "ncfm-win-x64-py314-r1",
+      "package_name": "NightCrowsFarmManager-patch-v1.1.11-to-v1.1.12.zip",
+      "package_url": "https://drive.usercontent.google.com/download?id=104AH9rmJx3dUgx8PE6k8RlqSmq_HBrcW&export=download&confirm=t",
+      "sha256": "52E57CF3AD0D9AD11ADD3CFB125BA6FC2E3F9FF851D80DA74CB25DE851AC7244",
+      "size": 6390068
+    },
+    {
+      "from_version": "1.1.12",
+      "to_version": "1.1.13",
+      "from_runtime": "ncfm-win-x64-py314-r1",
+      "to_runtime": "ncfm-win-x64-py314-r1",
+      "package_name": "NightCrowsFarmManager-patch-v1.1.12-to-v1.1.13.zip",
+      "package_url": "https://drive.usercontent.google.com/download?id=1RKNwgRIzUaOWNpds02PE3C6KwFodi6sZ&export=download&confirm=t",
+      "sha256": "BD676E6D78356324F282D0207CE6200F6F9B1F05011A66D817C260444EE7415A",
+      "size": 6423567
+    },
+    {
+      "from_version": "1.1.14",
+      "to_version": "1.1.15",
+      "from_runtime": "ncfm-win-x64-py314-r1",
+      "to_runtime": "ncfm-win-x64-py314-r1",
+      "package_name": "NightCrowsFarmManager-patch-v1.1.14-to-v1.1.15.zip",
+      "package_url": "https://drive.usercontent.google.com/download?id=1phpwrsu0LsifuFkMH-fcnDnYrag8mwTY&export=download&confirm=t",
+      "sha256": "52F15127DABD122630732A607296E2C1A455175DD1C79635A9B50C3BF7D7220B",
+      "size": 6415520,
+      "changes": [
+        "Sửa lệch thời gian giữ phím khi phát lại đường farm.",
+        "Tách watchdog nhận diện chết khỏi luồng replay để không làm sai số click.",
+        "Tối ưu OCR menu làng bằng cache frame và polling thích ứng cho máy yếu.",
+        "Giữ nguyên dữ liệu map và điểm farm của client."
+      ]
+    },
+    {
+      "from_version": "1.1.13",
+      "to_version": "1.1.15",
+      "from_runtime": "ncfm-win-x64-py314-r1",
+      "to_runtime": "ncfm-win-x64-py314-r1",
+      "package_name": "NightCrowsFarmManager-patch-v1.1.13-to-v1.1.15.zip",
+      "package_url": "https://drive.usercontent.google.com/download?id=1ukYQ0M2Zjqu3qgKptnY_du2ITNZREfWW&export=download&confirm=t",
+      "sha256": "3F444CA3A949337B993D597B335779F9C6877F7952C7B8606EA64AB793D14AB9",
+      "size": 6415520,
+      "changes": [
+        "Sửa lệch thời gian giữ phím khi phát lại đường farm.",
+        "Tách watchdog nhận diện chết khỏi luồng replay để không làm sai số click.",
+        "Tối ưu OCR menu làng bằng cache frame và polling thích ứng cho máy yếu.",
+        "Giữ nguyên dữ liệu map và điểm farm của client."
+      ]
+    },
+    {
+      "from_version": "1.1.16",
+      "to_version": "1.1.17",
+      "from_runtime": "ncfm-win-x64-py314-r1",
+      "to_runtime": "ncfm-win-x64-py314-r1",
+      "package_name": "NightCrowsFarmManager-patch-v1.1.16-to-v1.1.17.zip",
+      "package_url": "https://drive.usercontent.google.com/download?id=168oBOkPgzyRZ72Grm42DEXxK303_c2pp&export=download&confirm=t",
+      "sha256": "9F34343DD8DCE555D726EFD1D27AB03F63C74DA7E24F6EAD97850CF16654AB6E",
+      "size": 6419000,
+      "changes": [
+        "Đổi điểm farm sau 3 lần chết hoặc 10 lần TP khẩn cấp do PK.",
+        "Ưu tiên TP khẩn cấp; dọn popup đồ sau khi về làng được xác nhận.",
+        "Giữ nguyên dữ liệu map, route và điểm farm của client."
+      ]
+    },
+    {
+      "from_version": "1.1.17",
+      "to_version": "1.1.18",
+      "from_runtime": "ncfm-win-x64-py314-r1",
+      "to_runtime": "ncfm-win-x64-py314-r1",
+      "package_name": "NightCrowsFarmManager-patch-v1.1.17-to-v1.1.18.zip",
+      "package_url": "https://drive.usercontent.google.com/download?id=1iClOt6VxzNZvVC0bizDXSrYEtl_i71_7&export=download&confirm=t",
+      "sha256": "C4BD62C9BC4EA6F07D4EA5C362AD56BFB4407E017785F7149EDE1EB0601E8F57",
+      "size": 6465772,
+      "changes": [
+        "Ưu tiên death/TP khẩn cấp trước popup và chỉ dọn popup sau khi xác nhận menu NPC làng.",
+        "Sửa cổng ED90 có Enter mờ và tiếp tục xác nhận map/điểm farm an toàn.",
+        "Cập nhật thư viện lên 32 điểm farm phát hành; giữ nguyên mọi dữ liệu cá nhân trong data."
+      ]
+    },
+    {
+      "from_version": "1.1.18",
+      "to_version": "1.1.19",
+      "from_runtime": "ncfm-win-x64-py314-r1",
+      "to_runtime": "ncfm-win-x64-py314-r1",
+      "package_name": "NightCrowsFarmManager-patch-v1.1.18-to-v1.1.19.zip",
+      "package_url": "https://drive.usercontent.google.com/download?id=1_Gp8e5q9WjJ9VKZgC9bKSyuqXRtdVjy6&export=download&confirm=t",
+      "sha256": "9AC978E95714F1845E5E6A4020AFD13138C5A6388763F0AE940E8F1CF038798D",
+      "size": 6431346,
+      "changes": [
+        "Sửa nhận diện panel ED90 thật khi nút Enter đã mờ.",
+        "Chỉ chuyển sang chờ icon Healer sau khi panel đã được đóng và xác nhận biến mất.",
+        "Không chứa data và không ghi đè map, điểm farm, đường farm hoặc route cá nhân."
+      ]
+    },
+    {
+      "from_version": "1.1.19",
+      "to_version": "1.1.20",
+      "from_runtime": "ncfm-win-x64-py314-r1",
+      "to_runtime": "ncfm-win-x64-py314-r1",
+      "package_name": "NightCrowsFarmManager-patch-v1.1.19-to-v1.1.20.zip",
+      "package_url": "https://drive.usercontent.google.com/download?id=1I1au2cwz-bYx9c1ZyCcd26VJRTBc-blq&export=download&confirm=t",
+      "sha256": "4580D976E3874447103051DFF0371D3FF1AA58A3C35011C201EAFFFAF61E1FD9",
+      "size": 6467401,
+      "changes": [
+        "Thêm lối vào BF4 đã replay và xác minh.",
+        "Thêm điểm farm phát hành BF4 114-1.",
+        "Không chứa data và không ghi đè map, điểm farm, đường farm hoặc lối vào map cá nhân."
+      ]
+    },
+    {
+      "from_version": "1.1.20",
+      "to_version": "1.1.21",
+      "from_runtime": "ncfm-win-x64-py314-r1",
+      "to_runtime": "ncfm-win-x64-py314-r1",
+      "package_name": "NightCrowsFarmManager-patch-v1.1.20-to-v1.1.21.zip",
+      "package_url": "https://drive.usercontent.google.com/download?id=1Z7SB6I5OUBmGD-AqL0URTfmW32JVB5PM&export=download&confirm=t",
+      "sha256": "4969D6C3DE89E2B0ADE2D75C02B629334AD90E3B313B766EC05A4D683B449B98",
+      "size": 6461471,
+      "changes": [
+        "Thêm giao diện Tiếng Việt / English và lưu lựa chọn ngôn ngữ.",
+        "Rút gọn Standard Layout, thêm Wemix wallet và sửa hiển thị license English.",
+        "Không chứa data và không ghi đè map, điểm farm, đường farm hoặc lối vào map cá nhân."
+      ]
+    },
+    {
+      "from_version": "1.1.22",
+      "to_version": "1.1.23",
+      "from_runtime": "ncfm-win-x64-py314-r1",
+      "to_runtime": "ncfm-win-x64-py314-r1",
+      "package_name": "NightCrowsFarmManager-patch-v1.1.22-to-v1.1.23.zip",
+      "package_url": "https://drive.usercontent.google.com/download?id=1y6U9QHSJKd9CCLcYlQwOn-zzN4X6ysgV&export=download&confirm=t",
+      "sha256": "E51A1FCEBDACB36A68157F68A1D558089696D1B92052F267EDCDFB02EC4FFD89",
+      "size": 6507666,
+      "changes": [
+        "Sửa Lịch farm không chạy lại sau Dừng/Tạm dừng, ca nối tiếp trống giờ và Chạy ca đầu ngay.",
+        "Sửa báo cáo lỗi lớn vượt giới hạn an toàn mà vẫn giữ bằng chứng quan trọng.",
+        "Không chứa data và không ghi đè map, điểm farm, đường farm hoặc lối vào map cá nhân."
+      ]
+    },
+    {
+      "from_version": "1.1.23",
+      "to_version": "1.1.24",
+      "from_runtime": "ncfm-win-x64-py314-r1",
+      "to_runtime": "ncfm-win-x64-py314-r1",
+      "package_name": "NightCrowsFarmManager-patch-v1.1.23-to-v1.1.24.zip",
+      "package_url": "https://drive.usercontent.google.com/download?id=1jNSsxWLUJwuL5JRrdBr6FZznX5ba8zI6&export=download&confirm=t",
+      "sha256": "CE20D5F1C2E8EE2970ABECEB1BF5F3AB59D477AFC8FE4810477543349C880C0A",
+      "size": 6511575,
+      "changes": [
+        "Tách giờ bắt đầu thành hai ô Giờ và Phút theo định dạng 24 giờ; giữ tương thích lịch cũ.",
+        "Sửa Chạy ca đầu ngay khi lịch đang chờ giờ và chặn workflow trùng khi ca đã chạy.",
+        "Tối ưu tốc độ mở tool; không chứa data và không ghi đè dữ liệu map/route cá nhân."
+      ]
+    },
+    {
+      "from_version": "1.1.24",
+      "to_version": "1.1.25",
+      "from_runtime": "ncfm-win-x64-py314-r1",
+      "to_runtime": "ncfm-win-x64-py314-r1",
+      "package_name": "NightCrowsFarmManager-patch-v1.1.24-to-v1.1.25.zip",
+      "package_url": "https://drive.usercontent.google.com/download?id=19I8Q19rk97uK0a-kCqMPloN1dAT5qA_k&export=download&confirm=t",
+      "sha256": "56559E273D2D171D3DCE4C73714D6E796FEA56F560988A30548D1E5718D5267A",
+      "size": 6510997,
+      "changes": [
+        "Sửa Chạy ca đầu ngay khi tool vừa mở và Dashboard chưa tích Dùng.",
+        "Giữ nguyên lỗi Lịch farm thật thay vì bị thông báo kết thúc chung ghi đè.",
+        "Nhận diện an toàn hai cửa ED90 khi icon Healer bị che một phần.",
+        "Không chứa data và không ghi đè map, điểm farm, đường farm hoặc lối vào map cá nhân."
+      ]
+    },
+    {
+      "from_version": "1.1.25",
+      "to_version": "1.1.26",
+      "from_runtime": "ncfm-win-x64-py314-r1",
+      "to_runtime": "ncfm-win-x64-py314-r1",
+      "package_name": "NightCrowsFarmManager-patch-v1.1.25-to-v1.1.26.zip",
+      "package_url": "https://drive.usercontent.google.com/download?id=1PpvEjXmLgX-rDEatkZhdPUOmvk8LcJqL&export=download&confirm=t",
+      "sha256": "737F8F87DE0592F5E397F678A5ED9C8689C8D3842A006DA0D790BA437C5F2E55",
+      "size": 6516750,
+      "changes": [
+        "Sửa nhận diện chết an toàn khi lớp DirectX không xuất hiện trong PrintWindow.",
+        "Sửa EXP Restore và cổng ED90 không click route trước khi map sẵn sàng.",
+        "Đồng bộ PLAY khi Chạy ca đầu ngay thực sự khởi động.",
+        "Không chứa data và không ghi đè map, điểm farm, đường farm hoặc lối vào map cá nhân."
+      ]
+    },
+    {
+      "from_version": "1.1.26",
+      "to_version": "1.1.27",
+      "from_runtime": "ncfm-win-x64-py314-r1",
+      "to_runtime": "ncfm-win-x64-py314-r1",
+      "package_name": "NightCrowsFarmManager-patch-v1.1.26-to-v1.1.27.zip",
+      "package_url": "https://drive.usercontent.google.com/download?id=1S3TMz5BDW4S66eg-lLZdujbCX8zlCqlX&export=download&confirm=t",
+      "sha256": "052F097AE76FF04D65069C667B1AB3B26E333298792750347DABEEE3A62D5E1F",
+      "size": 6523137,
+      "changes": [
+        "Phân biệt menu NPC làng với minimap ở cùng trạng thái kính lúp.",
+        "Thoát Standby bằng Esc và xác nhận overlay đã mất trước khi đổi ca.",
+        "Báo lỗi chụp đúng tab, giữ tối đa hai ảnh và gửi ổn định qua Apps Script.",
+        "Không chứa data và không ghi đè map, điểm farm, đường farm hoặc lối vào map cá nhân."
+      ]
+    },
+    {
+      "from_version": "1.1.27",
+      "to_version": "1.1.28",
+      "from_runtime": "ncfm-win-x64-py314-r1",
+      "to_runtime": "ncfm-win-x64-py314-r1",
+      "package_name": "NightCrowsFarmManager-patch-v1.1.27-to-v1.1.28.zip",
+      "package_url": "https://drive.usercontent.google.com/download?id=1cBGbrYQHg_SICcdNfAi3o2Z4WrE8_gUI&export=download&confirm=t",
+      "sha256": "5B2391E336549B44C8B0FC92E9BE872DA04EF23D8186CD411ABBB2246C41553F",
+      "size": 6524608,
+      "changes": [
+        "Khẩn cấp Cleric dùng chính các phím hồi máu với chu kỳ nhanh riêng.",
+        "Thêm Buff 2; hai Buff có phím, chu kỳ và chế độ tuần tự độc lập.",
+        "Tương thích cấu hình cũ; Buff 2 mặc định tắt và không tự gửi phím.",
+        "Không chứa data và không ghi đè map, điểm farm, đường farm hoặc lối vào map cá nhân."
+      ]
+    },
+    {
+      "from_version": "1.1.28",
+      "to_version": "1.1.29",
+      "from_runtime": "ncfm-win-x64-py314-r1",
+      "to_runtime": "ncfm-win-x64-py314-r1",
+      "package_name": "NightCrowsFarmManager-patch-v1.1.28-to-v1.1.29.zip",
+      "package_url": "https://drive.usercontent.google.com/download?id=1X8o2VqB6JoeFpvgfMrgt09f7gGqO2mch&export=download&confirm=t",
+      "sha256": "B32BB01922D91D4CF92EAFEEF48D50021DAC528186F4E9F2FC08196FBE4C3F9E",
+      "size": 6526047,
+      "changes": [
+        "Phục hồi menu NPC bằng vòng kính lúp hai bước chỉ sau khi minimap làng được xác nhận.",
+        "Minimap hiện sẵn ở map farm không thể kích hoạt click kính lúp lần hai.",
+        "Khóa hồi quy chuỗi sau TP và vẫn yêu cầu hai lần xác nhận menu NPC trước khi workflow tiếp tục.",
+        "Không chứa data và không ghi đè map, điểm farm, đường farm hoặc lối vào map cá nhân."
+      ]
+    },
+    {
+      "from_version": "1.1.29",
+      "to_version": "1.1.30",
+      "from_runtime": "ncfm-win-x64-py314-r1",
+      "to_runtime": "ncfm-win-x64-py314-r1",
+      "package_name": "NightCrowsFarmManager-patch-v1.1.29-to-v1.1.30.zip",
+      "package_url": "https://drive.usercontent.google.com/download?id=1r5jPsgOAQ4tEzsW_n3v59EjxP_fk_BvY&export=download&confirm=t",
+      "sha256": "81A83A49E4A89B3979CC8DBA4DE1E97AE01FEF503DE3A7E50D7213C8796EBFBE",
+      "size": 6531200,
+      "changes": [
+        "Sửa Cleric đọc nhầm HP F2/F4 khi bỏ chọn một F-key.",
+        "Tự nhận diện layout party đủ 4 người hoặc co giữa còn 2–3 người trước khi đo HP.",
+        "Layout hoặc thành viên không chắc chắn trả -- và không gửi nhầm phím hồi máu.",
+        "Không chứa data và không ghi đè map, điểm farm, đường farm hoặc lối vào map cá nhân."
+      ]
+    },
+    {
+      "from_version": "1.1.30",
+      "to_version": "1.1.31",
+      "from_runtime": "ncfm-win-x64-py314-r1",
+      "to_runtime": "ncfm-win-x64-py314-r1",
+      "package_name": "NightCrowsFarmManager-patch-v1.1.30-to-v1.1.31.zip",
+      "package_url": "https://drive.usercontent.google.com/download?id=1VBlEOnI-pEC-1rGPz-np_3wcfpSZMFg9&export=download&confirm=t",
+      "sha256": "BE3D9EDA4C7AC1A556044E49750AB2F461125F74649D25690112CFF5AF1FB4E9",
+      "size": 6568617,
+      "changes": [
+        "Thêm lối vào BF5 đã replay/xác minh gồm 3 điểm click.",
+        "Đưa BF5 vào nhóm Battlefront và xóa nhóm R cùng R1-R7.",
+        "Tự chuyển lựa chọn R cũ về map hợp lệ mà không xóa dữ liệu cá nhân.",
+        "Patch không chứa data, license hoặc cấu hình cá nhân của user."
+      ]
+    }
+  ],
+  "notes": "1.1.33: updater dùng repository public riêng; giữ xóa điểm phát hành cục bộ, snapshot data và rollback data."
+}
