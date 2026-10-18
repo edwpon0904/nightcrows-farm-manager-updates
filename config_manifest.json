@@ -1,9 +1,9 @@
 {
-  "version": "1.1.33",
-  "config_url": "https://github.com/edwpon0904/nightcrows-farm-manager-updates/releases/download/v1.1.33/map_library-v1.1.33.json",
-  "sha256": "7EF4C78533D7A13C8AB1489F93FA668DDC9CF0E0DB2396FB9A004D35EC72DA45",
-  "size": 184222,
+  "version": "1.1.34",
+  "config_url": "https://raw.githubusercontent.com/edwpon0904/nightcrows-farm-manager-updates/main/map_library-v1.1.34.json",
+  "sha256": "689797783D6457D7459D980755653EB96011184BA1B75F1CB29926CDD7A50C6A",
+  "size": 184223,
   "notes": [
-    "Bản map/config phát hành cùng v1.1.33 từ repository public updater."
+    "Kh?i ph?c route v?o ED90 ?? ???c x?c nh?n; gi? nguy?n d? li?u c? nh?n c?a client."
   ]
 }
