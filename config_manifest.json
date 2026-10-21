@@ -1,9 +1,9 @@
 {
-  "version": "1.1.34",
-  "config_url": "https://raw.githubusercontent.com/edwpon0904/nightcrows-farm-manager-updates/main/map_library-v1.1.34.json",
-  "sha256": "689797783D6457D7459D980755653EB96011184BA1B75F1CB29926CDD7A50C6A",
-  "size": 184223,
+  "version": "1.1.35",
+  "config_url": "https://raw.githubusercontent.com/edwpon0904/nightcrows-farm-manager-updates/main/map_library-v1.1.35.json",
+  "sha256": "9E60BD82D38D955E09DFAA5A0D8AC94EFF9E20287D06B084FB6D3AD7EE70C4F6",
+  "size": 184209,
   "notes": [
-    "Kh?i ph?c route v?o ED90 ?? ???c x?c nh?n; gi? nguy?n d? li?u c? nh?n c?a client."
+    "?i?u ch?nh ?i?m v?o BF3 sau khi th?m BF5; gi? nguy?n d? li?u c? nh?n c?a client."
   ]
 }
