@@ -1,9 +1,9 @@
 {
-  "version": "1.1.35",
-  "config_url": "https://raw.githubusercontent.com/edwpon0904/nightcrows-farm-manager-updates/main/map_library-v1.1.35.json",
-  "sha256": "9E60BD82D38D955E09DFAA5A0D8AC94EFF9E20287D06B084FB6D3AD7EE70C4F6",
-  "size": 184209,
+  "version": "1.1.36",
+  "config_url": "https://raw.githubusercontent.com/edwpon0904/nightcrows-farm-manager-updates/main/map_library-v1.1.36.json",
+  "sha256": "8E0DE6AE837D31DF2B2893A82B8F2528E795B20CF4E90E4D90E95D516E7E64F3",
+  "size": 184528,
   "notes": [
-    "?i?u ch?nh ?i?m v?o BF3 sau khi th?m BF5; gi? nguy?n d? li?u c? nh?n c?a client."
+    "??ng b? ?i?m v?o BF1, BF2, BF3, BF4 v? BF5 theo b? c?c Battlefront 5 card."
   ]
 }
