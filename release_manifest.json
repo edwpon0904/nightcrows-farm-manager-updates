@@ -1,11 +1,11 @@
 {
-  "version": "1.1.33",
-  "latest_version": "1.1.33",
+  "version": "1.1.34",
+  "latest_version": "1.1.34",
   "runtime": "ncfm-win-x64-py314-r1",
-  "package_name": "NightCrowsFarmManager-client-v1.1.33.zip",
-  "package_url": "https://github.com/edwpon0904/nightcrows-farm-manager-updates/releases/download/v1.1.33/NightCrowsFarmManager-client-v1.1.33.zip",
-  "sha256": "0B74CFFD38DD1A7AEE13783456C22816829C2A934A4C40470DF18802C1BD732B",
-  "size": 172203431,
+  "package_name": "NightCrowsFarmManager-client-v1.1.34.zip",
+  "package_url": "https://github.com/edwpon0904/nightcrows-farm-manager-updates/releases/download/v1.1.34/NightCrowsFarmManager-client-v1.1.34.zip",
+  "sha256": "8DDF3195F062B571996B93623715D190AC84D731CFB4E77EFF4AD145757E5C07",
+  "size": 172209069,
   "release_notes": {
     "1.1.31": [
       "Thêm lối vào BF5 đã replay/xác minh gồm 3 điểm click và đưa BF5 vào nhóm Battlefront.",
@@ -118,6 +118,12 @@
       "Đổi nguồn cập nhật sang repository public riêng để client không cần đăng nhập GitHub.",
       "Giữ khả năng xóa điểm farm phát hành cục bộ bằng tombstone; không để điểm đã xóa tự xuất hiện lại.",
       "Gói full chỉ chứa thư viện phát hành, không chứa farm_config, profile cá nhân, route cá nhân, backup hoặc license."
+    ],
+    "1.1.34": [
+      "Sửa click vào Battlefront: nhận diện trực tiếp tâm nút Enter BF1-BF5 trên frame hiện tại, có tọa độ dự phòng khi OCR chưa sẵn sàng.",
+      "Sửa nhận diện popup Battlefront theo bố cục 5 card và bổ sung BF5 vào kiểm tra nút Enter bị mờ.",
+      "Đồng bộ DPI per-monitor để tọa độ cửa sổ và tọa độ chuột không bị lệch trên Windows.",
+      "Giữ nguyên thư mục data, điểm farm, đường farm, license và cấu hình cá nhân khi cập nhật."
     ]
   },
   "patches": [
@@ -441,5 +447,5 @@
       ]
     }
   ],
-  "notes": "1.1.33: updater dùng repository public riêng; giữ xóa điểm phát hành cục bộ, snapshot data và rollback data."
+  "notes": "1.1.34: khóa click đúng nút Enter Battlefront BF1-BF5 và sửa lệch tọa độ DPI."
 }
